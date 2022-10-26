@@ -37,10 +37,12 @@
 
     <logger name="com.github" level="debug" additivity="false">
         <appender-ref ref="FILE-AUDIT" />
+        <appender-ref ref="CONSOLE"/>
     </logger>
 
     <root level="error">
         <appender-ref ref="FILE-AUDIT" />
+        <appender-ref ref="CONSOLE"/>
     </root>
 
 </configuration>

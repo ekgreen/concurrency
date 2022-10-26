@@ -7,7 +7,6 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Executor;
 import java.util.concurrent.LinkedBlockingQueue;
 
-
 public class PokerFacePool implements Executor {
 
     private final BlockingQueue<Runnable> queue;
